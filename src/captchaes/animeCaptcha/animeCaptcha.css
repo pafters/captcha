@@ -1,0 +1,146 @@
+.captchaImg {
+    width: 70%;
+    margin-bottom: 2dvh;
+}
+
+.captchaBttnsContainer {
+    margin-top: 2dvh;
+    width: 100%;
+}
+
+.unswerContainer {
+    margin-top: 2dvh;
+}
+
+.captchaDesktop {
+    background-color: #D9D9D9;
+    color: white;
+    width: 14dvw;
+    height: 14dvw;
+    text-align: center;
+    margin-left: 1dvw;
+    margin-right: 1dvw;
+    position: relative;
+}
+
+.captchaPortrait {
+    background-color: #D9D9D9;
+    color: white;
+    width: 32dvw;
+    height: 32dvw;
+    text-align: center;
+    position: relative;
+}
+
+.updNoticePort {
+    color: #757575;
+    font-size: 4dvw;
+    min-height: 2dvh;
+}
+
+.updNoticeDesk {
+    color: #757575;
+    font-size: 1.5dvw;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captchaContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* расстояние между блоками */
+}
+
+.gripGadDesktop {
+    grid-gap: 0.6dvw;
+}
+
+.gripGadPortrait {
+    grid-gap: 2dvw;
+}
+
+.elemActiveDesktop {
+    outline: 0.75dvw solid #ff7a00;
+    outline-offset: -0.75dvw;
+}
+
+.elemActivePortrait {
+    outline: 2dvw solid #ff7a00;
+    outline-offset: -2dvw;
+}
+
+.switchButtonDesktop {
+    width: 4dvw;
+    height: 4dvw;
+    border-radius: 4dvw;
+}
+
+.switchButtonPortrait {
+    width: 10dvw;
+    height: 10dvw;
+}
+
+.leftButtonPortrait,
+.leftButtonDesktop {
+    content: url(../src/assets/leftAnimeBttn.png);
+    position: absolute;
+    bottom: 0.5dvw;
+    left: 0.5dvw;
+}
+
+.rightButtonPortrait,
+.rightButtonDesktop {
+    content: url(../src/assets/leftAnimeBttn.png);
+    position: absolute;
+    transform: scale(-1, 1);
+    bottom: 0.5dvw;
+    right: 0.5dvw;
+}
+
+.rightButtonPortrait:active,
+.rightButtonPortrait:active,
+.rightButtonDesktop:hover {
+    content: url(../src/assets/leftAnimeBttn-active.png);
+}
+
+.leftButtonPortrait:active,
+.leftButtonDesktop:active,
+.leftButtonDesktop:hover {
+    content: url(../src/assets/leftAnimeBttn-active.png);
+}
+
+
+.leftButtonPortrait {
+    position: absolute;
+    bottom: 1dvw;
+    left: 1dvw;
+}
+
+.rightButtonPortrait {
+    position: absolute;
+    bottom: 1dvw;
+    right: 1dvw;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+/*Portrait mod*/

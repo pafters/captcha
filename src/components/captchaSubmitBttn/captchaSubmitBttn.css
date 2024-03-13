@@ -1,0 +1,51 @@
+.captchaSubmitBttn {
+    background-color: #fff0;
+    width: auto;
+    margin-left: 1%;
+    color: #757575;
+}
+
+.captchaSubmitBttnDesktop:hover,
+.captchaSubmitBttnDesktop:active {
+    border: 0.25dvw #ffe100 solid;
+}
+
+.captchaSubmitBttnPortrait:active {
+    border: 0.75dvw #ffe100 solid;
+}
+
+.captchaSubmitBttnDesktop {
+    cursor: pointer;
+    background-color: #fff0;
+    width: auto;
+    border: 0.25dvw coral solid;
+    border-radius: 1.5dvw;
+    padding-top: 1.2dvh;
+    padding-bottom: 1.2dvh;
+    font-size: 1.5dvw;
+    margin-left: 1%;
+}
+
+.captchaSubmitBttnPortrait {
+    border: 0.75dvw coral solid;
+    border-radius: 5dvh;
+    padding-top: 1.2dvh;
+    padding-bottom: 1.2dvh;
+    font-size: 4dvw;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

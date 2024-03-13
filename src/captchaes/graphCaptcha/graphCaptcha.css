@@ -1,0 +1,76 @@
+.captchaImg {
+    width: 70%;
+    margin-bottom: 2dvh;
+}
+
+.captchaBttnsContainer {
+    margin-top: 2dvh;
+    width: 100%;
+}
+
+.unswerContainer {
+    margin-top: 2dvh;
+}
+
+.captchaDesktop {
+    background-color: brown;
+    color: white;
+    width: 8dvw;
+    height: 8dvw;
+    text-align: center;
+    /* margin: 1dvw; */
+}
+
+.captchaPortrait {
+    background-color: brown;
+    color: white;
+    width: 19dvw;
+    height: 19dvw;
+    text-align: center;
+}
+
+.updNoticePort {
+    color: #757575;
+    font-size: 4dvw;
+    min-height: 2dvh;
+}
+
+.updNoticeDesk {
+    color: #757575;
+    font-size: 1.5dvw;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captchaContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* расстояние между блоками */
+}
+
+.gripGadDesktop {
+    grid-gap: 0.6dvw;
+}
+
+.gripGadPortrait {
+    grid-gap: 2dvw;
+}
+
+.elemActiveDesktop {
+    outline: 0.75dvw solid #ff7a00;
+    outline-offset: -0.75dvw;
+}
+
+.elemActivePortrait {
+    outline: 2dvw solid #ff7a00;
+    outline-offset: -2dvw;
+}
+
+
+/*Portrait mod*/

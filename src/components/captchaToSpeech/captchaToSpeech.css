@@ -1,0 +1,18 @@
+.captchaToSpeechBttnDesktop {
+    width: 3.6dvw;
+    cursor: pointer;
+    height: 3.6dvw;
+    content: url(../src/assets/captchaToSpeech.png);
+}
+
+.captchaToSpeechBttnPortrait {
+    width: 8dvw;
+    height: 8dvw;
+    content: url(../src/assets/captchaToSpeech.png);
+}
+
+.captchaToSpeechBttnPortrait:active,
+.captchaToSpeechBttnDesktop:active,
+.captchaToSpeechBttnDesktop:hover {
+    content: url(../src/assets/captchaToSpeech-active.png);
+}

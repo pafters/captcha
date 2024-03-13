@@ -1,0 +1,193 @@
+.captchaSlider {
+  width: 80%;
+  -webkit-appearance: none;
+  border-radius: 5dvw;
+  background-size: 0% 100%;
+  border: 0;
+  background-repeat: no-repeat;
+}
+
+.captchaSlider::-webkit-slider-thumb {
+  /*бегунок*/
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  height: 2dvw;
+  width: 2dvw;
+  border-radius: 3dvw;
+  margin-top: -0.6dvw;
+  background: #ffffff;
+  border: 0.25dvw #ff7a00 solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.captchaSlider::-webkit-slider-runnable-track {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSlider::-moz-range-track {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSlider::-moz-range-thumb {
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  height: 2dvw;
+  width: 2dvw;
+  border-radius: 3dvw;
+  margin-top: -0.6dvw;
+  background: #ffffff;
+  border: 0.25dvw #ff7a00 solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+/* CSS is missing in your code  */
+.captchaSlider::-ms-track {
+  height: 2dvw;
+  width: 2dvw;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border: 0.25dvw #ff7a00 solid;
+  color: transparent;
+}
+
+.captchaSlider::-ms-fill-lower {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSlider::-ms-fill-upper {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSlider::-ms-thumb {
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  height: 2dvw;
+  width: 2dvw;
+  border-radius: 3dvw;
+  margin-top: -0.6dvw;
+  background: #ffffff;
+  border: 0.25dvw #ff7a00 solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.captchaSlider:focus::-ms-fill-lower {
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+}
+
+.captchaSlider:focus::-ms-fill-upper {
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+}
+
+/*****Портретная верстка********/
+
+.captchaSliderPortrait {
+  width: 80%;
+  -webkit-appearance: none;
+  border-radius: 10dvw;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+}
+
+.captchaSliderPortrait::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  height: 5.5dvw;
+  width: 5.5dvw;
+  border-radius: 6dvw;
+  margin-top: -1.5dvw;
+  background: #ffffff;
+  border: 0.7dvw #ff7a00 solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.captchaSliderPortrait::-webkit-slider-runnable-track {
+  height: 2dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSliderPortrait::-moz-range-track {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSliderPortrait::-moz-range-thumb {
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  height: 2dvw;
+  width: 2dvw;
+  border-radius: 3dvw;
+  margin-top: -0.6dvw;
+  background: #ffffff;
+  border: 0.25dvw #ff7a00 solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+/* CSS is missing in your code  */
+.captchaSliderPortrait::-ms-track {
+  height: 2dvw;
+  width: 2dvw;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border: 0.25dvw #ff7a00 solid;
+  color: transparent;
+}
+
+.captchaSliderPortrait::-ms-fill-lower {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSliderPortrait::-ms-fill-upper {
+  height: 0.8dvw;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+  border-radius: 3dvw;
+}
+
+.captchaSliderPortrait::-ms-thumb {
+  box-shadow: 0px 0px 0.1dvw 0.1dvw #00000019;
+  height: 2dvw;
+  width: 2dvw;
+  border-radius: 3dvw;
+  margin-top: -0.6dvw;
+  background: #ffffff;
+  border: 0.25dvw #ff7a00 solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.captchaSliderPortrait:focus::-ms-fill-lower {
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+}
+
+.captchaSliderPortrait:focus::-ms-fill-upper {
+  background-image: linear-gradient(-45deg, #ff4500, #ffe100, #ff4500);
+}

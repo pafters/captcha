@@ -1,0 +1,40 @@
+.captchaImg {
+    width: 70%;
+    margin-bottom: 2dvh;
+}
+
+.captchaBttnsContainer {
+    margin-top: 2dvh;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1dvh;
+}
+
+.unswerContainer {
+    margin-top: 3dvh;
+}
+
+.captchaBttn {
+    margin-left: 5%;
+}
+
+.captchaSpeechBttn {
+    /* padding-top: 0.25%; */
+}
+
+.updNoticePort {
+    color: #757575;
+    font-size: 4dvw;
+    min-height: 2dvh;
+}
+
+.updNoticeDesk {
+    color: #757575;
+    font-size: 1.5dvw;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+/*Portrait mod*/

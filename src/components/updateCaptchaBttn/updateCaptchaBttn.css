@@ -1,0 +1,22 @@
+.updateCaptchaBttnDesktop {
+    cursor: pointer;
+    background-color: #fff0;
+    width: 4dvw;
+    height: 4dvw;
+    margin-left: 10%;
+    content: url(../src/assets/updateCaptchaBttn.png);
+}
+
+.updateCaptchaBttnPortrait {
+    background-color: #fff0;
+    width: 8dvw;
+    height: 8dvw;
+    margin-left: 10%;
+    content: url(../src/assets/updateCaptchaBttn.png);
+}
+
+.updateCaptchaBttnPortrait:active,
+.updateCaptchaBttnDesktop:active,
+.updateCaptchaBttnDesktop:hover {
+    content: url(../src/assets/updateCaptchaBttn-active.png);
+}

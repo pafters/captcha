@@ -1,0 +1,45 @@
+.captachaExitContainer {
+    width: 100%;
+    display: grid;
+    justify-content: right;
+    margin-bottom: 4dvh;
+}
+
+.captchaExitBttnPortrait {
+    width: 4dvw;
+    min-width: 4dvw;
+    height: 4dvw;
+    margin-right: 4dvw;
+    content: url(../src/assets/captchaExit.png);
+}
+
+.captchaExitBttnDesktop {
+    cursor: pointer;
+    width: 1.5dvw;
+    height: 1.5dvw;
+    min-width: 1.5dvw;
+    margin-right: 2dvw;
+    content: url(../src/assets/captchaExit.png);
+}
+
+.captchaExitBttnPortrait:active,
+.captchaExitBttnDesktop:active,
+.captchaExitBttnDesktop:hover {
+    content: url(../src/assets/captchaExit-active.png);
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
