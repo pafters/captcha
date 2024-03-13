@@ -29,7 +29,7 @@ import { CaptchaManager, CaptchaProps } from 'captcha-react-library/'
 import 'captcha-react-library/dist/index.css';
 ```
 
-Из параметров CaptchaProps получить следующих список параметров:
+Из параметров CaptchaProps получить следующий список параметров:
 
 ```javascript
 const { captchaIsActive, updateCaptchaIsActive, captchaIsValid, updateCaptchaStatus } = CaptchaProps();
